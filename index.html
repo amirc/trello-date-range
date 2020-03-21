@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Trello</title>
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+    <script src="https://trello.com/1/client.js?key=[KEY]&token=[Token]"></script>
+</head>
+<body>
+        <h1>Trello API - Add list for range of dates</h1>    
+        <h2>Instructions</h2>
+        <ul>
+            <li>1. Edit this HTML file, add your key and token detials</li>
+            <li>2. Fill in the form and press submit</li>
+        </ul>
+        <label for="shortBoardId">The short id of the board</label>
+        <input id="shortBoardId" name="shortBoardId" >
+        
+        <h2>From date</h2>
+        <input type="date" id="from" value='2020-03-21'>
+        <h2>Until date</h2>
+        <input type="date" id="until" value='2020-04-30'>
+        <br>
+        <button>Go</button>
+        <script src="js/main.js"></script>
+    </body>
+</html>    
